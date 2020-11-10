@@ -10,7 +10,7 @@ CREATE TABLE Table_name(
 	[Column_name_2] [varchar](100),
 	[Column_name_3] [varchar](max),
 	PRIMARY KEY (Column_name),
- 	INDEX SHORT_DESC_IND (Column_name, Column_name_2)
+ 	INDEX Index_name (Column_name, Column_name_2)
     
 ) ON [PRIMARY]
 GO
